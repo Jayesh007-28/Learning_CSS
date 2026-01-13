@@ -70,3 +70,60 @@ tbody , caption{
     font-size: 70px;
     text-align: center;
 }
+.img_b_shadow{
+    width: 400px;
+    box-shadow: 5px 6px 7px rebeccapurple;
+}
+.img_b_shadow2{
+    width: 400px;
+    box-shadow: 5px 9px 5px rgb(202, 105, 14);
+}
+.img_b_shadow3{
+    width: 400px;
+    box-shadow: 15px 16px 17px #1a4c46;
+}
+.img_d_shadow{
+    width: 500px;
+    filter: drop-shadow(5px 6px 17px rgb(228, 15, 15));
+}
+.img_d_shadow2{
+    width: 500px;
+    filter: drop-shadow(5px 6px 17px black);
+}
+.f_family{
+    font-family: monospace;
+}
+.f_family2{
+    font-family: cursive;
+}
+.f_family3{
+    font-family: sans-serif;
+}
+.f_family4{
+    font-family: 'Times New Roman', Times, serif;
+}
+.f_family5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f_family6{
+    font-family: fantasy;
+}
+.f_weight{
+    font-weight: 900;
+    font-style:italic;
+}
+.f_font{
+    font: italic bold 30px monospace;
+    text-align: justify;
+}
+#heading{
+    color: rebeccapurple;
+    font-size: 100px;
+}
+.heading{
+    font-size: 70px;
+    color: red;
+}
+.t_transform{
+    text-transform: uppercase;
+}
