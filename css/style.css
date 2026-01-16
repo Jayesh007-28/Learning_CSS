@@ -5,7 +5,6 @@ h3{
 }
 p{
     color:black;
-    background-color:white;
     font-size: 20px;
 }
 thead , tfoot{
@@ -126,4 +125,188 @@ tbody , caption{
 }
 .t_transform{
     text-transform: uppercase;
+}
+.b_img1{
+    width: 400px;
+    border: 3px solid rgb(221, 180, 106);
+}
+.b_img2{
+    width: 400px;
+    border: 4px dashed red;
+}
+.b_img3{
+    width: 400px;
+    border: 4px dotted blue;
+}
+.b_img4{
+    width: 400px;
+    border: 4px double olive;
+}
+.b_img5{
+    width: 400px;
+    border: 4px inset blueviolet;
+}
+b_img6{
+    width: 400px;
+    border: 4px outset blueviolet;
+}
+.b_img7{
+    width: 400px;
+    border: 20px groove red;
+}
+.b_img7{
+    width: 400px;
+    border: 5px ridge black;
+}
+.b_img9{
+    width: 400px ;
+    border: 8px solid;
+    border-top-color: red;
+    border-left-color: blueviolet;
+    border-right-color: orangered;
+    border-bottom-color: green;
+}
+.b_img10{
+    width: 400px;
+    border: 9px double red;
+    border-radius: 20px;
+}
+.b_img11{
+    width: 400px;
+    border: 9px double red;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 60px; */
+    border-radius: 70px 50px 70px 50px;
+    border-color: red blue blueviolet black;
+}
+.simple{
+    border: 5px solid red;
+}
+.box_model1{
+    border: 5px solid red;
+    padding: 40px;
+    margin: 50px;
+}
+.box_model2{
+    border: 5px solid red;
+    /* padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 70px; */
+    /* top-bottom,left-right */
+    /* padding: 10px 60px; */
+    /* top->right->bottom->left */
+    padding: 10px 20px 30px 40px;
+
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+    /* top-bottom,left-right */
+    margin: 30px 40px;
+    /* top->right->bottom->left */
+    margin: 20px 40px 60px 80px;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: gainsboro;
+    border: 4px solid red;
+    margin-bottom: 10px;
+}
+.box1{
+    position: static;
+    top: 100px;
+    left: 200px;
+}
+.box2{
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+.box3{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+.box4{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+.box5{
+    position: sticky;
+    top: 0px;
+
+}
+
+.rel{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: darkcyan;
+    left: 100px;
+}
+
+#tv{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    left: 125px;
+}
+
+#sofa{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    background-color: red;
+    left: 100px;
+    top: 120px;
+}
+
+#fridge{
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    background-color: bisque;
+    top: 250px;
+    right: 50px;
+}
+
+/* body{
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.heading{
+    color: white;
+    text-align: center;
+}
+
+.t_para{
+    color: white;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+}
+.linear{
+    color: white;
+    text-align: center;
+    height: 400px;
+    background: linear-gradient(orange,white,green);
+}
+.radial{
+    height: 900px;
+    background: radial-gradient(circle at right bottom,red,green,yellow,black);
+
+}
+.conic{
+    height: 900px;
+    background: conic-gradient(from 90deg,blueviolet,yellow,green,white);
 }
