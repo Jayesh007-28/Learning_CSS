@@ -1,0 +1,50 @@
+h1{
+    color: yellow;
+}
+
+h1:hover{
+    color: red;
+    background-color: blueviolet;
+}
+p{
+    /* border: 5px solid red; */
+}
+
+.para_pg:hover{
+    margin: 40px;
+    padding: 50px;
+    /* background-color: black; */
+    background: linear-gradient(orange,red);
+    color: white;
+}
+
+h2:active{
+    color: red;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+a:visited{
+    color: red;
+}
+
+input:focus{
+    color: white;
+    background-color: red;
+    border: 2px solid yellow;
+    padding: 10px;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+p::first-line{
+    color: blue;
+}
+
+::selection{
+    color: red;
+    background-color: orange;
+}
