@@ -19,22 +19,27 @@
 } */
 
 div{
-    width: 15000px;
-    height: 1500px;
-    border-radius: 10px;
-    background-color: red;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid black;
     position: relative;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     animation: movingbox;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
-    animation-direction: alternate;
+    
 }
 
 @keyframes movingbox{
-    0%{background-image: url("/images/Flag.jpeg");}
-    25%{background-image: url("/images/banana.png");}
-    50%{background-image: url("/images/leaf.jpeg");}
-    75%{background-image: url("/images/crown.png");}
-    100%{background-image: url("/images/Flag.jpeg");}
+    0%{background-image: url("/images/Lion.jpg");left: 0px;top: 0px;}
+    25%{background-image: url("/images/Tricolor.jpg");left: 300px;top: 0px;}
+    50%{background-image: url("/images/CroweR.jpg");left: 300px;top: 300px;}
+    75%{background-image: url("/images/Butterfly.jpg");left: 0px;top: 300px;}
+    100%{background-image: url("/images/Lion.jpg");left: 0px;top: 0px;}
 }
